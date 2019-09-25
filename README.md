@@ -34,4 +34,7 @@ Accessing DynamoDB using nodeJS
       - SCAN Operation - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#scan-property
       - BATCHGET Operation - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#batchGet-property
 
+    # conditional.js
+      - CONDITIONAL PUT Operation - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#put-property
+
 
