@@ -7,14 +7,14 @@ const dynamodb = new AWS.DynamoDB();
 
 //List Table Operation
 
-// var params = {};
-// dynamodb.listTables(params, (err, data) => {
-//     if (err) {
-//         console.log(err, err.stack);
-//     } else {
-//         console.log(data);
-//     }
-// });
+var params = {};
+dynamodb.listTables(params, (err, data) => {
+    if (err) {
+        console.log(err, err.stack);
+    } else {
+        console.log(data);
+    }
+});
 
 //Describe Table Operation
 
