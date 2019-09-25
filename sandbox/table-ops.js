@@ -54,7 +54,7 @@ const dynamodb = new AWS.DynamoDB();
 //         ReadCapacityUnits: 1,
 //         WriteCapacityUnits: 1
 //     },
-//     TableName: "td_notes"
+//     TableName: "td_notes_sdk"
 // };
 // dynamodb.createTable(params, (err, data) => {
 //     if (err) {
