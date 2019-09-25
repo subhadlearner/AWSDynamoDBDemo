@@ -7,14 +7,14 @@ const dynamodb = new AWS.DynamoDB();
 
 //List Table Operation
 
-var params = {};
-dynamodb.listTables(params, (err, data) => {
-    if (err) {
-        console.log(err, err.stack);
-    } else {
-        console.log(data);
-    }
-});
+// var params = {};
+// dynamodb.listTables(params, (err, data) => {
+//     if (err) {
+//         console.log(err, err.stack);
+//     } else {
+//         console.log(data);
+//     }
+// });
 
 //Describe Table Operation
 
@@ -38,7 +38,7 @@ dynamodb.listTables(params, (err, data) => {
 //         },
 //         {
 //             AttributeName: "timestamp",
-//             AttributeType: "S"
+//             AttributeType: "N"
 //         }
 //     ],
 //     KeySchema: [{
@@ -64,6 +64,8 @@ dynamodb.listTables(params, (err, data) => {
 //     }
 // });
 
+//update table
+
 // var params = {
 //     ProvisionedThroughput: {
 //         ReadCapacityUnits: 5,
@@ -78,6 +80,8 @@ dynamodb.listTables(params, (err, data) => {
 //         console.log(JSON.stringify(data, null, 2));
 //     }
 // });
+
+//delete table
 
 // var params = {
 //     TableName: "td_notes"

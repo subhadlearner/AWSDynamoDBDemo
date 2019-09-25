@@ -22,3 +22,10 @@ Accessing DynamoDB using nodeJS
 # AWS.DynamoDB.DocumentClient
     - Class documentation can be found here. https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html
 
+    # write-ops.js
+      - PUT Operation - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#put-property
+      - UPDATE Operation - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#update-property
+      - DELETE Operation - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#delete-property
+      - BATCHWRITE Operation - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#batchWrite-property
+
+
